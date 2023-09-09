@@ -11,7 +11,7 @@ services:
     networks:
       - habitica
     ports:
-      - "8080:8080"
+      - "59271:8080"
     volumes:
       - .:/usr/src/habitica
       - /usr/src/habitica/node_modules
